@@ -6,33 +6,36 @@
 
 | 软件名                                      | 软件包 ID                                      | 备注                                                        |
 | :------------------------------------------ | :--------------------------------------------- | :---------------------------------------------------------- |
-| Microsoft.VCRedist.20xx.x86/64              | 略                                             | Microsoft Visual C++ 可再发行程序包                         |
+| Microsoft VCRedist 20xx x86/64              | Microsoft.VCRedist.20xx.x64/86                 | Microsoft Visual C++ 可再发行程序包                         |
 | Visual Studio 2010 Tools for Office Runtime | Microsoft.VSTOR                                |                                                             |
 | VisualCppRedist AIO                         | abbodi1406.vcredist                            | abbodi1406 开发的 vcredist 合集包，已替代独立列的 VC 运行时 |
-| Microsoft.DotNet.AspNetCore.x               | 略                                             | ASP.NET Core 运行时                                         |
-| Microsoft.DotNet.AspNetCore.Preview         | 略                                             | ASP.NET Core 运行时 预览版                                  |
-| Microsoft.DotNet.DesktopRuntime.x           | 略                                             | .NET 桌面运行时                                             |
-| Microsoft.DotNet.DesktopRuntime.Preview     | 略                                             | .NET 桌面运行时 预览版                                      |
+| Microsoft DotNet AspNetCore x               | Microsoft.DotNet.AspNetCore.x                  | ASP.NET Core 运行时                                         |
+| Microsoft DotNet AspNetCore Preview         | Microsoft.DotNet.AspNetCore.Preview            | ASP.NET Core 运行时 预览版                                  |
+| Microsoft DotNet DesktopRuntime x           | Microsoft.DotNet.DesktopRuntime.x              | .NET 桌面运行时                                             |
+| Microsoft DotNet DesktopRuntime Preview     | Microsoft.DotNet.DesktopRuntime.Preview        | .NET 桌面运行时 预览版                                      |
+| v2rayN                                      | 2dust.v2rayN                                   |                                                             |
 | Git                                         | Git.Git                                        |                                                             |
-| Python                                      | Python.Python                                  |                                                             |
-| VisualStudioCode                            | Microsoft.VisualStudioCode                     |                                                             |
+| Python 3.12                                 | Python.Python.3.12                             | 可修改 3.12 来指定版本号                                    |
+| Python Launcher                             | Python.Launcher                                |                                                             |
+| Visual Studio Code                          | Microsoft.VisualStudioCode                     |                                                             |
+| cURL                                        | cURL.cURL                                      |                                                             |
 | Chrome                                      | Google.Chrome.EXE                              |                                                             |
-| ZeroTierOne                                 | ZeroTier.ZeroTierOne                           |                                                             |
+| ZeroTier                                    | ZeroTier.ZeroTierOne                           |                                                             |
 | WireGuard                                   | WireGuard.WireGuard                            |                                                             |
-| 7-zip                                       | 7zip.7zip                                      |                                                             |
+| 7-Zip                                       | 7zip.7zip                                      |                                                             |
 | WinRAR                                      | RARLab.WinRAR                                  |                                                             |
 | XMeters                                     | Entropy6.XMeters                               |                                                             |
-| MemReduct                                   | Henry++.MemReduct                              |                                                             |
+| Mem Reduct                                  | Henry++.MemReduct                              |                                                             |
 | MSI Afterburner                             | Guru3D.Afterburner                             |                                                             |
 | PowerToys                                   | Microsoft.PowerToys                            |                                                             |
 | TeraCopy                                    | CodeSector.TeraCopy                            |                                                             |
-| ProcessLasso                                | BitSum.ProcessLasso                            |                                                             |
+| Process Lasso                               | BitSum.ProcessLasso                            |                                                             |
 | BCUninstaller                               | Klocman.BulkCrapUninstaller                    |                                                             |
 | WizTree                                     | AntibodySoftware.WizTree                       |                                                             |
 | CrystalDiskInfo ShizukuEdition              | CrystalDewWorld.CrystalDiskInfo.ShizukuEdition |                                                             |
-| qBittorrent-Enhanced-Edition                | c0re100.qBittorrent-Enhanced-Edition           |                                                             |
+| qBittorrent Enhanced Edition                | c0re100.qBittorrent-Enhanced-Edition           |                                                             |
 | PixPin                                      | PixPin.PixPin                                  |                                                             |
-| SumatraPDF                                  | SumatraPDF.SumatraPDF                          |                                                             |
+| Sumatra PDF                                 | SumatraPDF.SumatraPDF                          |                                                             |
 | FastStone Viewer                            | FastStone.Viewer                               |                                                             |
 | Motrix                                      | agalwood.Motrix                                |                                                             |
 | RustDesk                                    | RustDesk.RustDesk                              |                                                             |
@@ -66,7 +69,7 @@
 | fluent-reader                               | yang991178.fluent-reader                       |                                                             |
 | QuickLook                                   | QL-Win.QuickLook                               |                                                             |
 | Mkcert                                      | FiloSottile.mkcert                             |                                                             |
-| InternetDownloadManager                     | Tonec.InternetDownloadManager                  |                                                             |
+| Internet Download Manager                   | Tonec.InternetDownloadManager                  |                                                             |
 | HandBrake                                   | HandBrake.HandBrake                            |                                                             |
 | switchhosts                                 | oldj.switchhosts                               |                                                             |
 | PlatformTools                               | Google.PlatformTools                           |                                                             |

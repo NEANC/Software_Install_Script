@@ -11,7 +11,9 @@ Microsoft.DotNet.AspNetCore.8
 Microsoft.DotNet.DesktopRuntime.8
 Microsoft.DotNet.AspNetCore.Preview
 Microsoft.DotNet.DesktopRuntime.Preview
-Python.Python
+2dust.v2rayN
+cURL.cURL
+Python.Python.3.12
 Microsoft.VisualStudioCode
 SomePythonThings.WingetUIStore
 Google.Chrome.EXE
