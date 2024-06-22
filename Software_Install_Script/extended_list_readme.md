@@ -6,16 +6,16 @@
 
 | 软件名                                      | 软件包 ID                                      | 备注                                                        |
 | :------------------------------------------ | :--------------------------------------------- | :---------------------------------------------------------- |
-| Microsoft.VCRedist.20xx.x86/64              | 略                                             | Microsoft Visual C++ 可再发行程序包                         |
+| Microsoft VCRedist 20xx x86/64              | 略                                             | Microsoft Visual C++ 可再发行程序包                         |
 | Visual Studio 2010 Tools for Office Runtime | Microsoft.VSTOR                                |                                                             |
 | VisualCppRedist AIO                         | abbodi1406.vcredist                            | abbodi1406 开发的 vcredist 合集包，已替代独立列的 VC 运行时 |
-| Microsoft.DotNet.AspNetCore.x               | 略                                             | ASP.NET Core 运行时                                         |
-| Microsoft.DotNet.AspNetCore.Preview         | 略                                             | ASP.NET Core 运行时 预览版                                  |
-| Microsoft.DotNet.DesktopRuntime.x           | 略                                             | .NET 桌面运行时                                             |
-| Microsoft.DotNet.DesktopRuntime.Preview     | 略                                             | .NET 桌面运行时 预览版                                      |
+| Microsoft DotNet AspNetCore x               | 略                                             | ASP.NET Core 运行时                                         |
+| Microsoft DotNet AspNetCore Preview         | 略                                             | ASP.NET Core 运行时 预览版                                  |
+| Microsoft DotNet DesktopRuntime x           | 略                                             | .NET 桌面运行时                                             |
+| Microsoft DotNet DesktopRuntime Preview     | 略                                             | .NET 桌面运行时 预览版                                      |
 | Git                                         | Git.Git                                        |                                                             |
 | Python                                      | Python.Python                                  |                                                             |
-| VisualStudioCode                            | Microsoft.VisualStudioCode                     |                                                             |
+| Visual Studio Code                            | Microsoft.VisualStudioCode                     |                                                             |
 | Chrome                                      | Google.Chrome.EXE                              |                                                             |
 | ZeroTierOne                                 | ZeroTier.ZeroTierOne                           |                                                             |
 | WireGuard                                   | WireGuard.WireGuard                            |                                                             |
@@ -30,9 +30,9 @@
 | BCUninstaller                               | Klocman.BulkCrapUninstaller                    |                                                             |
 | WizTree                                     | AntibodySoftware.WizTree                       |                                                             |
 | CrystalDiskInfo ShizukuEdition              | CrystalDewWorld.CrystalDiskInfo.ShizukuEdition |                                                             |
-| qBittorrent-Enhanced-Edition                | c0re100.qBittorrent-Enhanced-Edition           |                                                             |
+| qBittorrent Enhanced Edition                | c0re100.qBittorrent-Enhanced-Edition           |                                                             |
 | PixPin                                      | PixPin.PixPin                                  |                                                             |
-| SumatraPDF                                  | SumatraPDF.SumatraPDF                          |                                                             |
+| Sumatra PDF                                  | SumatraPDF.SumatraPDF                          |                                                             |
 | FastStone Viewer                            | FastStone.Viewer                               |                                                             |
 | Motrix                                      | agalwood.Motrix                                |                                                             |
 | RustDesk                                    | RustDesk.RustDesk                              |                                                             |
@@ -66,7 +66,7 @@
 | fluent-reader                               | yang991178.fluent-reader                       |                                                             |
 | QuickLook                                   | QL-Win.QuickLook                               |                                                             |
 | Mkcert                                      | FiloSottile.mkcert                             |                                                             |
-| InternetDownloadManager                     | Tonec.InternetDownloadManager                  |                                                             |
+| Internet Download Manager                     | Tonec.InternetDownloadManager                  |                                                             |
 | HandBrake                                   | HandBrake.HandBrake                            |                                                             |
 | switchhosts                                 | oldj.switchhosts                               |                                                             |
 | PlatformTools                               | Google.PlatformTools                           |                                                             |
