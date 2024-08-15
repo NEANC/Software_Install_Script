@@ -5,9 +5,11 @@ REM 本项目受 Apache License Version 2.0 约束
 
 title 基于 Winget 包管理器的自动化安装脚本
 
+REM chcp 65001 设置编码，防止乱码
+
 ECHO.
 ECHO 请注意，安装脚本会进行以下操作：申请管理员权限，更换 Winget 列表源，并在安装结束后重置 Winget 列表源。
-ECHO 若同意，请按任意键继续......
+ECHO 若同意，请按任意键继续。
 pause > nul
 
 REM 提权命令
@@ -26,10 +28,26 @@ REM 更换列表源 为 中科大源
 winget source remove winget
 winget source add winget https://mirrors.ustc.edu.cn/winget-source
 
-REM 逐行读取软件列表文件并安装软件
-for /f "tokens=*" %%a in (software_list.txt) do (
-    echo 正在安装: %%a
-    winget install %%a 
+tasklist | find /i "v2rayN.exe" >nul
+if %errorlevel% EQU 0 (
+    ECHO 发现 v2rayN 正在运行，正在申请使用代理进行下载
+    ECHO 若同意使用代理，请按任意键继续。
+    pause > nul
+
+    rem 设置winget代理配置
+    winget settings --enable ProxyCommandLineOptions
+
+    rem 逐行读取软件列表文件并安装软件，且推荐http代理地址
+    for /f "tokens=*" %%a in (software_list.txt) do (
+        echo 正在安装: %%a
+        winget install %%a --proxy http://127.0.0.1:10809
+    )
+) else (
+    rem 逐行读取软件列表文件并安装软件
+    for /f "tokens=*" %%a in (software_list.txt) do (
+        echo 正在安装: %%a
+        winget install %%a
+    )
 )
 
 REM 重置列表源 为 官方源
