@@ -1,0 +1,13 @@
+abbodi1406.vcredist
+Microsoft.DotNet.AspNetCore.3_1
+Microsoft.DotNet.DesktopRuntime.3_1
+Microsoft.DotNet.AspNetCore.5
+Microsoft.DotNet.DesktopRuntime.5
+Microsoft.DotNet.AspNetCore.6
+Microsoft.DotNet.DesktopRuntime.6
+Microsoft.DotNet.AspNetCore.7
+Microsoft.DotNet.DesktopRuntime.7
+Microsoft.DotNet.AspNetCore.8
+Microsoft.DotNet.DesktopRuntime.8
+Microsoft.DotNet.AspNetCore.Preview
+Microsoft.DotNet.DesktopRuntime.Preview
