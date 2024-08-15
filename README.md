@@ -16,11 +16,9 @@
 
 ## 如何使用
 
-1.将 `software_install.bat` 与 `software_list.txt` 下载到同一文件夹内。
-
-2.运行 `software_install.bat` ，脚本会自动下载并安装在 `software_list.txt` 文件中所列出的软件。
-
-- Ps.可以手动更换`software_install.bat`中的列表源链接，对 列表拉取 进行加速。
+1. 下载[Software_Install_Script](Software_Install_Script\README.md)。
+2. 运行 `software_install.bat` ，脚本会自动下载并安装在 `software_list.txt` 文件中所列出的软件。
+   - Ps.可以手动更换`software_install.bat`中的列表源链接，加速软件列表下载。
 
 # License
 

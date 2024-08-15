@@ -3,11 +3,12 @@
 REM License
 REM 本项目受 Apache License Version 2.0 约束
 
-title 基于 Winget 包管理器的自动化安装脚本
+title 「代理模式」基于 Winget 包管理器的自动化安装脚本
 
 ECHO.
 ECHO 请注意，安装脚本会进行以下操作：申请管理员权限，更换 Winget 列表源，并在安装结束后重置 Winget 列表源。
-ECHO 若同意，请按任意键继续。
+ECHO 本脚本需要通过 v2rayN 的默认端口进行下载加速。
+ECHO 若同意以上内容，请按任意键继续。
 pause > nul
 
 REM 提权命令
@@ -28,10 +29,8 @@ winget source add winget https://mirrors.ustc.edu.cn/winget-source
 
 tasklist | find /i "v2rayN.exe" >nul
 if %errorlevel% EQU 0 (
-    ECHO 发现 v2rayN 正在运行，正在申请使用代理进行下载
-    ECHO 若同意使用代理，请按任意键继续。
-    pause > nul
-    title 「代理模式」基于 Winget 包管理器的自动化安装脚本
+    ECHO 发现 v2rayN 正在运行，正在进行下一步
+
     REM 设置winget代理配置
     winget settings --enable ProxyCommandLineOptions
 
@@ -41,12 +40,10 @@ if %errorlevel% EQU 0 (
         winget install %%a --proxy http://127.0.0.1:10809
     )
 ) else (
-    title 「直连模式」基于 Winget 包管理器的自动化安装脚本
-    REM 逐行读取软件列表文件并安装软件
-    for /f "tokens=*" %%a in (software_list.txt) do (
-        ECHO 正在安装: %%a
-        winget install %%a
-    )
+    ECHO 错误：v2rayN没有运行，请v2rayN运行后再运行本脚本。
+    ECHO 安装失败，请按任意键退出。
+    pause > nul
+    exit
 )
 
 REM 重置列表源 为 官方源

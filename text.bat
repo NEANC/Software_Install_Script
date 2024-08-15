@@ -1,5 +1,6 @@
-@echo off
-chcp 65001
+rem @echo off
+
+rem chcp 65001
 set "software=v2rayN.exe"
 
 %1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)&&exit
@@ -7,19 +8,22 @@ cd /d "%~dp0"
 
 tasklist | find /i "v2rayN.exe" >nul
 if %errorlevel% EQU 0 (
-    echo v2rayN æ­£åœ¨è¿è¡Œï¼Œæ­£åœ¨è¿›è¡Œä¸‹ä¸€æ­¥
+    echo v2rayN ÕýÔÚÔËÐÐ£¬ÕýÔÚ½øÐÐÏÂÒ»²½
     
-    rem è®¾ç½®wingetä»£ç†é…ç½®
+    rem ÉèÖÃwinget´úÀíÅäÖÃ
     winget settings --enable ProxyCommandLineOptions
 
-    rem é€è¡Œè¯»å–è½¯ä»¶åˆ—è¡¨æ–‡ä»¶å¹¶å®‰è£…è½¯ä»¶
+    rem ÖðÐÐ¶ÁÈ¡Èí¼þÁÐ±íÎÄ¼þ²¢°²×°Èí¼þ
     for /f "tokens=*" %%a in (software_list.txt) do (
-        echo æ­£åœ¨å®‰è£…: %%a
+        echo ÕýÔÚ°²×°: %%a
         winget install %%a --proxy http://127.0.0.1:10809
     )
 ) else (
-    echo é”™è¯¯ï¼šv2rayN æ²¡æœ‰è¿è¡Œï¼Œè¯·æŒ‰ä»»æ„é”®é€€å‡ºã€‚
-    pause > nul
-    exit /b
+    for /f "tokens=*" %%a in (software_list.txt) do (
+        echo ÕýÔÚ°²×°: %%a
+         winget install %%a
+    )
 )
-pause
+ECHO °²×°½áÊø£¬Çë°´ÈÎÒâ¼üÍË³ö¡£
+pause > nul
+exit
