@@ -1,11 +1,11 @@
 # Software Install Script
 
-基于 Winget 包管理器的 Windows 的软件批量安装脚本。
+基于 Winget 包管理器的 Windows 的软件批量安装脚本。  
+本项目仅有**中文版本**。
 
-本项目目的为：为了**快速装机/重装系统**提供**便利**。
-请注意：本项目会尽量避免使用 `msstore源` 或其他源的软件包
-
-- Ps.本项目仅有中文版本。
+> [!NOTE]
+> 本项目宗旨：为了装机/重装系统提供便利。
+> > 本项目会尽量避免使用 `msstore源` 或其他源的软件包
 
 ## 安装列表说明
 
@@ -16,9 +16,9 @@
 
 ## 如何使用
 
-1. 下载[Software_Install_Script](Software_Install_Script\README.md)。
-2. 运行 `software_install.bat` ，脚本会自动下载并安装在 `software_list.txt` 文件中所列出的软件。
-   - Ps.可以手动更换`software_install.bat`中的列表源链接，加速软件列表下载。
+1. 下载 [Software_Install_Script](https://github.com/NEANC/Software_Install_Script/releases/tag/v3.0)。
+2. 运行 `start.bat` ，脚本会自动下载并安装在 `software_list.txt` 文件中所列出的软件。
+   - Ps.可手动更换`software_install.bat`中的列表源链接，加速软件列表下载。
 
 # License
 
