@@ -32,8 +32,8 @@ for /f "tokens=*" %%a in (software_list.txt) do (
     winget install %%a 
 )
 
-REM 重置列表源 为 官方源
-winget source reset winget
+REM 重置列表源
+winget source reset --force
 
 ECHO 安装结束，请按任意键退出。
 pause > nul

@@ -47,9 +47,9 @@ for /f "tokens=* delims=" %%a in (..\software_list.txt) do (
     winget install %%a --proxy http://127.0.0.1:10809
     )
 
-REM 重置列表源 为 官方源
+REM 重置列表源
 ECHO.
-winget source reset winget
+winget source reset --force
 
 ECHO.
 ECHO 安装结束，请按任意键退出。
