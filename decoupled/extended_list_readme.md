@@ -75,3 +75,6 @@
 | PlatformTools                               | Google.PlatformTools                           |                                                             |
 | scrcpy                                      | Genymobile.scrcpy                              |                                                             |
 | WebpConverter                               | Vertexshare.WebpConverter                      |                                                             |
+| EarTrumpet                                  | File-New-Project.EarTrumpet                    | Windows 10 风格的 Windows 7 音量合成器                      |
+| Microsoft PowerShell                        | Microsoft.PowerShell                           |                                                             |
+| Windows Terminal                            | Microsoft.WindowsTerminal                      |                                                             |

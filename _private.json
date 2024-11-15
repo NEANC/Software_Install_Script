@@ -11,9 +11,10 @@ Microsoft.DotNet.AspNetCore.8
 Microsoft.DotNet.DesktopRuntime.8
 Microsoft.DotNet.AspNetCore.Preview
 Microsoft.DotNet.DesktopRuntime.Preview
-2dust.v2rayN
+Microsoft.PowerShell
+Microsoft.WindowsTerminal
 cURL.cURL
-Python.Python.3.12
+Python.Python
 Microsoft.VisualStudioCode
 SomePythonThings.WingetUIStore
 Google.Chrome.EXE
@@ -53,3 +54,4 @@ Tencent.WeChat
 Tencent.QQ.NT
 Alibaba.DingTalk
 Telegram.TelegramDesktop
+File-New-Project.EarTrumpet
