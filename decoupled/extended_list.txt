@@ -103,3 +103,5 @@ oldj.switchhosts
 Google.PlatformTools
 Genymobile.scrcpy
 Vertexshare.WebpConverter
+
+File-New-Project.EarTrumpet
